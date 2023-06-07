@@ -2,9 +2,7 @@
 
 ## Overview
 
-This repo is a reference implementation of Data Mesh on Google Cloud.
-See [this architecture guide](https://cloud.google.com/architecture/architecture-functions-data-mesh)
-for details.
+This repo is a reference implementation of Data Mesh on Google Cloud. I have made reference of Google Cloud Platform documentation and alter some other codes for a better demo.
 
 [infrastructure](/infrastructure) folder contains a number of Terraform scripts
 to create several Google Cloud projects which represent typical data mesh
@@ -16,17 +14,11 @@ typical progression of building a data mesh.
 
 ### Prerequisites
 
-In order to run the scripts in this repo make sure you have installed:
+In order to run the scripts in this repo these utilities have to be installed - and they are preinstalled in your environment when you use Google Cloud Shell.
 
 * gcloud command ([instructions](https://cloud.google.com/sdk/docs/install))
-*
-
-Terraform ([instructions](https://learn.hashicorp.com/tutorials/terraform/install-cli))
-
+* Terraform ([instructions](https://learn.hashicorp.com/tutorials/terraform/install-cli))
 * jq utility ([instructions](https://stedolan.github.io/jq/download/))
-
-If you are using Cloud Shell, all these utilities are preinstalled in your
-environment.
 
 You would need to create Google Cloud's Application Default Credentials using
 
